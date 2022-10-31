@@ -37,7 +37,7 @@
   .task_input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
   }
 
   .new-task-wrapper {
@@ -138,7 +138,7 @@
   }
 
   .task-item > input[type="text"] {
-    width: 226px
+    width: 226px;
   }
 
   .delete_button_img {
@@ -159,12 +159,12 @@
   
   /* Edit Task */
   .tasks-container .task-item input[type=text] {
-    display: none
+    display: none;
   }
   
   .tasks-container .task-item.edit-mode input[type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
   }
   
   .tasks-container .task-item.edit-mode label {

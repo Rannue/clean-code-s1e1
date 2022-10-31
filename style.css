@@ -1,5 +1,5 @@
 /* Basic Style */
-  .body-container {
+.body-container {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -16,7 +16,7 @@
     width: 100%;
   }
 
-  .more_inf {
+  .matrix-info {
     font-family: fantasy, cursive;
   }
   
@@ -34,7 +34,7 @@
     margin: 0 auto 0;
   }
 
-  .task_input {
+  .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -137,7 +137,7 @@
     width: 226px;
   }
 
-  .task-item > input[type="text"] {
+  .task-item > .task_input {
     width: 226px;
   }
 
@@ -158,11 +158,11 @@
   }
   
   /* Edit Task */
-  .tasks-container .task-item input[type=text] {
+  .tasks-container .task-item .task_input {
     display: none;
   }
   
-  .tasks-container .task-item.edit-mode input[type=text] {
+  .tasks-container .task-item.edit-mode .task_input {
     display: inline-block;
     width: 224px;
   }
